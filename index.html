@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For My Babeeee ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="hearts"></div>
+
+<audio id="music" loop>
+
+<source src="music.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- PASSWORD SCREEN -->
+
+<section id="screen1" class="screen active">
+
+<div class="glass">
+
+<h1>❤️ For My Babeeee ❤️</h1>
+
+<p>
+
+Before entering...
+
+prove that you're the owner of my heart.
+
+</p>
+
+<input
+
+type="password"
+
+id="password"
+
+placeholder="Enter Our Special Date">
+
+<button onclick="checkPassword()">
+
+Unlock ❤️
+
+</button>
+
+<p id="error"></p>
+
+</div>
+
+</section>
+
+<!-- MEMORIES SCREEN -->
+
+<section id="screen2" class="screen">
+
+<div class="glass memories">
+
+<h1>
+
+Our Beautiful Journey ❤️
+
+</h1>
+
+<p class="subtitle">
+
+Every picture tells a story...
+
+</p>
+
+<div class="gallery">
+
+<div class="photo">
+
+<img src="photo1.jpg">
+
+<span>
+
+The beginning of forever ❤️
+
+</span>
+
+</div>
+
+<div class="photo">
+
+<img src="photo2.jpg">
+
+<span>
+
+My favourite smile.
+
+</span>
+
+</div>
+
+<div class="photo">
+
+<img src="photo3.jpg">
+
+<span>
+
+Every memory is precious.
+
+</span>
+
+</div>
+
+<div class="photo">
+
+<img src="photo4.jpg">
+
+<span>
+
+Forever us.
+
+</span>
+
+</div>
+
+<div class="photo">
+
+<img src="photo5.jpg">
+
+<span>
+
+Love grows here.
+
+</span>
+
+</div>
+
+<div class="photo">
+
+<img src="photo6.jpg">
+
+<span>
+
+Infinite memories.
+
+</span>
+
+</div>
+
+</div>
+
+<button onclick="openLetter()">
+
+Read My Heart 💌
+
+</button>
+
+</div>
+
+</section>
+  
+  <!-- LOVE LETTER SCREEN -->
+
+<section id="screen3" class="screen">
+
+<div class="glass letter-box">
+
+<h1>💌 A Letter For You</h1>
+
+<div id="envelope">
+
+<div class="envelope-front">
+
+❤️
+
+</div>
+
+</div>
+
+<div id="letter">
+
+<h2>To My Babeeee ❤️</h2>
+
+<p id="typing">
+
+</p>
+
+</div>
+
+<button onclick="showFinal()">
+
+One Last Surprise ❤️
+
+</button>
+
+</div>
+
+</section>
+
+<!-- FINAL SCREEN -->
+
+<section id="screen4" class="screen">
+
+<div class="glass final-box">
+
+<h1>
+
+❤️ Forever & Always ❤️
+
+</h1>
+
+<img
+
+src="photo6.jpg"
+
+class="final-photo"
+
+alt="Forever">
+
+<h2>
+
+No matter where life takes us...
+
+</h2>
+
+<p>
+
+I'll always choose you.
+
+Every heartbeat...
+
+Every smile...
+
+Every memory...
+
+belongs to you.
+
+You are my safest place,
+
+my happiness,
+
+my home.
+
+❤️
+
+</p>
+
+<div id="secretHeart">
+
+❤️
+
+</div>
+
+<p id="hiddenMessage">
+
+Every heartbeat of mine whispers your name...
+
+Thank you for existing.
+
+I Love You Infinity ♾️❤️
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+Made With Endless Love ❤️
+
+</footer>
+
+<script src="script.js"></script>
+
+<!-- LOADING SCREEN -->
+
+<div id="loader">
+
+<div class="loader-content">
+
+<div class="heart-loader">
+
+❤️
+
+</div>
+
+<h2>
+
+Preparing your surprise...
+
+</h2>
+
+<p>
+
+Every heartbeat leads to you...
+
+</p>
+
+</div>
+
+</div>
+
+<!-- FLOATING PARTICLES -->
+
+<div class="floating-hearts">
+
+<span>❤️</span>
+
+<span>💖</span>
+
+<span>💕</span>
+
+<span>💗</span>
+
+<span>💘</span>
+
+<span>❤️</span>
+
+<span>💖</span>
+
+<span>💕</span>
+
+</div>
+
+<!-- ROSE PETALS -->
+
+<div class="rose-petals">
+
+<span>🌹</span>
+
+<span>🌹</span>
+
+<span>🌹</span>
+
+<span>🌹</span>
+
+<span>🌹</span>
+
+<span>🌹</span>
+
+</div>
+
+<!-- BACKGROUND GLOW -->
+
+<div class="pink-glow"></div>
+
+<!-- CUSTOM CURSOR -->
+
+<div id="cursor-heart">
+
+❤️
+
+</div>
+
+<!-- LOVE QUOTES -->
+
+<div id="loveQuotes">
+
+<span>
+
+"You are my today and all of my tomorrows."
+
+</span>
+
+<span>
+
+"Every love story is beautiful,
+
+but ours is my favourite."
+
+</span>
+
+<span>
+
+"Home is wherever you are."
+
+</span>
+
+</div>
+  
+</body>
+
+</html>
