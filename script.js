@@ -16,22 +16,22 @@ const error = document.getElementById("error");
 /* -------------------------------
       LOADER
 -------------------------------- */
+window.addEventListener("load", function () {
 
-window.onload = () => {
+const loader = document.getElementById("loader");
 
-setTimeout(() => {
+if(loader){
 
-loader.style.opacity = "0";
-
-setTimeout(() => {
+setTimeout(function(){
 
 loader.style.display = "none";
 
-},1000);
+},2000);
 
-},2500);
+}
 
-};
+});
+
 
 /* -------------------------------
       PASSWORD
